@@ -17,6 +17,8 @@ export default class Home extends Component {
     var lastName = "Shrestha"
     return (
       <div className = "componentClass">
+        {/* use of inline CSS */}
+        <h2 style ={{background:"darkblue", padding:"20px", color:"white"}}>Let's Connected</h2>
           <div className="content">
               {/* use of localVariable */}
               <h1>Hi This is {name} {lastName}</h1>
@@ -30,5 +32,3 @@ export default class Home extends Component {
   }
 }
 
-const test = new Home();
-console.log(test);
